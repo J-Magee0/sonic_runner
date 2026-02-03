@@ -1,4 +1,5 @@
 import k from "./kaplayCtx.js";
+import game from "./scenes/game.js";
 import mainMenu from "./scenes/mainMenu.js";
 
 //Sprites
@@ -41,7 +42,7 @@ k.loadSound("ring", "sounds/Ring.wav");
 //Scenes
 k.scene("main-menu", mainMenu);
 
-k.scene("game", () => {});
+k.scene("game", game);
 
 k.scene("gameover", () => {});
 
