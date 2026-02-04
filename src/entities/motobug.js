@@ -1,6 +1,6 @@
 import k from "../kaplayCtx";
 
-export function makeMotoBug(pos) {
+export function makeMotobug(pos) {
   return k.add([
     k.sprite("motobug", { anim: "run" }),
     k.area({ shape: new k.Rect(k.vec2(-5, 0), 32, 32) }),
@@ -10,4 +10,5 @@ export function makeMotoBug(pos) {
     k.offscreen(),
     "enemy",
   ]);
+
 }
