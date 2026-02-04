@@ -67,6 +67,10 @@ export default function game() {
 
   spawnMotobug();
 
+  const spawnRing = () => {
+    
+  }
+
   k.add([
     k.rect(1920, 300),
     k.opacity(0),
