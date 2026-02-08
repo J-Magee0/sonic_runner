@@ -66,7 +66,7 @@ export default function game() {
 
     k.play("hurt", { volume: 0.5 });
     k.setData("currentScore", score);
-    k.go("gameover", { citySfx });
+    k.go("gameover", citySfx);
   });
 
   sonic.onCollide("ring", (ring) => {
