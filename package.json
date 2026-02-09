@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "gh-pages -d dist",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
-    "preview": "vite preview",
-    "homepage": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^7.2.4"
