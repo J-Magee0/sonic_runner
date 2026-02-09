@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "./sonic-runner/",
+  base: "./sonic_runner/",
 });
